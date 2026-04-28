@@ -1,0 +1,25 @@
+# Raw data — too large and cannot be redistributed
+data/
+
+# Panel (derived, large)
+tables/panel_final.csv
+
+# LaTeX auxiliary files
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.synctex.gz
+
+# Figure PNGs (PDFs are enough)
+figures/*.png
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
