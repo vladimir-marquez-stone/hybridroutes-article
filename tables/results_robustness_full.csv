@@ -1,0 +1,7 @@
+spec,eq,coef,se,t,n,G,sig
+(1)_Baseline_NoDec,MEX_US,0.66041,0.18109,3.647,191763,41,***
+(1)_Baseline_NoDec,CHN_MEX,-1.07574,0.18101,-5.943,191763,41,***
+(2)_AltTreat_DeltaShare,MEX_US,1.58958,0.33207,4.787,165924,41,***
+(2)_AltTreat_DeltaShare,CHN_MEX,-0.2326,0.47671,-0.488,165924,41,
+(3)_Drop_HS87,MEX_US,0.70133,0.18485,3.794,187209,40,***
+(3)_Drop_HS87,CHN_MEX,-1.01442,0.17958,-5.649,187209,40,***
