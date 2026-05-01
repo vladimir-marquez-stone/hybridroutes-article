@@ -1,5 +1,10 @@
 [![DOI](https://zenodo.org/badge/1224043927.svg)](https://doi.org/10.5281/zenodo.19935466)
 
+**Vladimir Márquez Stone & Seyka Sandoval**
+Facultad de Economía, UNAM
+
+Working paper available on SSRN: http://ssrn.com/abstract=6685999
+
 # Competition and Dependence: Mexico, China, and the New Export Routes
 
 ## Data
@@ -19,14 +24,23 @@ File naming convention:
 ## Replication
 
 Install dependencies:
-  pip install -r requirements.txt
 
-Generate figures:
-  python code/generate_figures.py
+    pip install -r requirements.txt
 
-Run DiD estimation:
-  python code/did_estimation.py
+Run the full pipeline with one command:
+
+    python run_all.py --data data/ --output tables/ --figures figures/
+
+Or step by step:
+
+    python codes/trade_model_final.py   # builds panel, runs DiD, saves tables
+    python codes/scatter_routes.py      # Figure 1
+    python codes/generate_figures.py    # Figures 2-4
 
 Compile paper:
-  cd paper && pdflatex competencia_dependencia && bibtex competencia_dependencia
-  pdflatex competencia_dependencia && pdflatex competencia_dependencia
+
+    cd paper
+    pdflatex competencia_dependencia
+    bibtex competencia_dependencia
+    pdflatex competencia_dependencia
+    pdflatex competencia_dependencia
