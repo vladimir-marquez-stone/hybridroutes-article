@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1224043927.svg)](https://doi.org/10.5281/zenodo.19935466)
+
 # Competition and Dependence: Mexico, China, and the New Export Routes
 
 ## Data
